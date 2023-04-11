@@ -1,0 +1,84 @@
+body {
+  margin: 0 auto;
+}
+
+button {
+  border: 0;
+}
+
+b {
+  display: flex;
+  justify-content: center;
+}
+
+.search-form {
+  height: 50px;
+  background-color: rgb(48, 87, 170);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.btnSearch {
+  background-color: chartreuse;
+  border-radius: 5%;
+  height: 22px;
+  cursor: pointer;
+}
+
+.inputPlace {
+  background-color: rgb(240, 235, 235);
+  height: 20px;
+  border: 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.photo-card {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  max-width: 20vw;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: rgba(48, 87, 170, 0.416);
+}
+
+.info {
+  display: flex;
+  margin: auto;
+  font-size: small;
+  gap: 8px;
+}
+
+.info-item-span {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-card-img {
+  display: flex;
+  width: 20vw;
+  height: 12vw;
+  margin: 0 auto;
+}
+
+.btn-load-more {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 50px;
+  margin-left: calc(50vw - 75px);
+  background-color: aliceblue;
+  border: 2px solid;
+  border-color: coral;
+  border-radius: 15%;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
